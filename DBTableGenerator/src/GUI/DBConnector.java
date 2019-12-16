@@ -150,7 +150,7 @@ public class DBConnector extends JFrame {
 						case "MySQL":
 							sql = "CREATE TABLE "+DBName+"."+tn+" (";
 						case "MariaDB":
-						
+							sql = "CREATE TABLE "+DBName+"."+tn+" (";
 						}
 						
 						
@@ -202,15 +202,17 @@ public class DBConnector extends JFrame {
 				} catch (NullPointerException ne) {
 					ne.printStackTrace();
 					JOptionPane.showMessageDialog(null, "데이터베이스를 선택하지 않았거나 빠트린 값이 있는지 확인해주세요.",
-							"Connection Test Failed!", JOptionPane.ERROR_MESSAGE);
+							"Create Table Test Failed!", JOptionPane.ERROR_MESSAGE);
 				} catch (NumberFormatException nue) {
 					nue.printStackTrace();
 					JOptionPane.showMessageDialog(null, "데이터베이스를 선택하지 않았거나 빠트린 값이 있는지 확인해주세요.",
-							"Connection Test Failed!", JOptionPane.ERROR_MESSAGE);
+							"Create Table Failed!", JOptionPane.ERROR_MESSAGE);
 				} catch (SQLSyntaxErrorException SQsyne) {
-					SQsyne.getMessage();
 					JOptionPane.showMessageDialog(null, SQsyne.getMessage(),
-							"Connection Test Failed!", JOptionPane.ERROR_MESSAGE);
+							"Create Table Failed!", JOptionPane.ERROR_MESSAGE);
+				} catch (SQLException SQLe) {
+					JOptionPane.showMessageDialog(null, SQLe.getMessage(),
+							"Create Table Failed!", JOptionPane.ERROR_MESSAGE);
 				} catch (Exception xe) {
 					xe.printStackTrace();
 				}
