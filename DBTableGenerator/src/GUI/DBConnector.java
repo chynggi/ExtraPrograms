@@ -147,10 +147,13 @@ public class DBConnector extends JFrame {
 						{
 						case "Oracle":
 							sql = "CREATE TABLE "+tn+" (";
+							break;
 						case "MySQL":
 							sql = "CREATE TABLE "+DBName+"."+tn+" (";
+							break;
 						case "MariaDB":
 							sql = "CREATE TABLE "+DBName+"."+tn+" (";
+							break;
 						}
 						
 						
