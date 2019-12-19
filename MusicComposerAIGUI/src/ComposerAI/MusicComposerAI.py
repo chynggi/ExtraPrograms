@@ -19,11 +19,11 @@ def MusicComposer(modelfile,midi,Log):
     f0 = open("pitches.txt",'r',encoding='utf-8')
     pitches = f0.read().splitlines()
     for x in pitches:
-       print(x) 
+        Log(str(x))
     
     for i, note in enumerate(pitches):
         note_dict[note] = i
-    #print(note_dict)
+    #Log(str(note_dict)
     
     # Now let's construct sequences. Taking each note and encoding it as a numpy array with a 1 in the position of the note it has
     sequence_length = 50
@@ -70,7 +70,7 @@ def MusicComposer(modelfile,midi,Log):
     
     # Now output is populated with notes in their string form
     for element in output:
-        print(element)
+        Log(str(element))
     
     
     # ### Convert to MIDI format
@@ -83,8 +83,8 @@ def MusicComposer(modelfile,midi,Log):
     finalNotes = [] 
     for element in output:
         index = list(element).index(1)
-        print(index)
-        print(backward_dict)
+        Log(str(index))
+        Log(str(backward_dict))
         finalNotes.append(backward_dict[index])
         
     offset = 0
