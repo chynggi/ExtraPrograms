@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import mymarket.sample.dao.SampleDAO;
 import mymarket.common.util.FileUtils;
@@ -21,11 +22,13 @@ public class SampleServiceImpl implements SampleService {
 	@Resource(name = "fileUtils")
 	private FileUtils fileUtils;
 
+	@Transactional
 	@Override
 	public List<Map<String, Object>> selectBoardList(Map<String, Object> map) {
 		return sampleDAO.selectBoardList(map);
 	}
-
+	
+	@Transactional
 	@Override
 	public Map<String, Object> selectBoardDetail(Map<String, Object> map) throws Exception {
 		sampleDAO.updateHitCnt(map);
@@ -37,6 +40,7 @@ public class SampleServiceImpl implements SampleService {
 		return resultMap;
 	}
 
+	@Transactional
 	@Override
 	public void insertBoard(Map<String, Object> map, HttpServletRequest request) throws Exception {
 		sampleDAO.insertBoard(map);
@@ -47,6 +51,7 @@ public class SampleServiceImpl implements SampleService {
 
 	}
 
+	@Transactional
 	@Override
 	public void updateBoard(Map<String, Object> map, HttpServletRequest request) throws Exception {
 		sampleDAO.updateBoard(map);
@@ -63,6 +68,7 @@ public class SampleServiceImpl implements SampleService {
 		}
 	}
 
+	@Transactional
 	@Override
 	public void deleteBoard(Map<String, Object> map) throws Exception {
 		sampleDAO.deleteBoard(map);
