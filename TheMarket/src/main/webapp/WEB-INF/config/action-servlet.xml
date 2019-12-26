@@ -11,10 +11,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
 	<context:include-filter type="annotation" 
 	expression="org.springframework.stereotype.Controller"/> 
 	</context:component-scan>
-
-
-
-
+	
 	<mvc:annotation-driven> 
 		<mvc:argument-resolvers>
 			<bean class="mymarket.common.resolver.CustomMapArgumentResolver"></bean> 	

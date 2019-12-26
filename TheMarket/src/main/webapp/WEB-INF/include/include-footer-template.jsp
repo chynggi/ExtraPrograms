@@ -12,14 +12,14 @@
 	<section class="footer-section">
 		<div class="container">
 			<div class="footer-logo text-center">
-				<a href="index.html"><img src="./img/logo-light.png" alt=""></a>
+				<a href="index.html"><img src="<c:url value='/img/logo-light.png'/>" alt=""></a>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
 					<div class="footer-widget about-widget">
 						<h2>About</h2>
 						<p>Donec vitae purus nunc. Morbi faucibus erat sit amet congue mattis. Nullam frin-gilla faucibus urna, id dapibus erat iaculis ut. Integer ac sem.</p>
-						<img src="img/cards.png" alt="">
+						<img src="<c:url value='/img/cards.png'/>" alt="">
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6">
@@ -47,7 +47,7 @@
 						<h2>Questions</h2>
 						<div class="fw-latest-post-widget">
 							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/blog-thumbs/1.jpg"></div>
+								<div class="lp-thumb set-bg" data-setbg="<c:url value='/img/blog-thumbs/1.jpg'/>"></div>
 								<div class="lp-content">
 									<h6>what shoes to wear</h6>
 									<span>Oct 21, 2018</span>
@@ -55,7 +55,7 @@
 								</div>
 							</div>
 							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/blog-thumbs/2.jpg"></div>
+								<div class="lp-thumb set-bg" data-setbg="<c:url value='/img/blog-thumbs/2.jpg'/>"></div>
 								<div class="lp-content">
 									<h6>trends this year</h6>
 									<span>Oct 21, 2018</span>

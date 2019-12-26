@@ -4,7 +4,7 @@
 <!-- Hero section -->
 	<section class="hero-section">
 		<div class="hero-slider owl-carousel">
-			<div class="hs-item set-bg" data-setbg="img/bg.jpg">
+			<div class="hs-item set-bg" data-setbg="<c:url value='/img/bg.jpg'/>">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6 col-lg-7 text-white">
@@ -22,7 +22,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="hs-item set-bg" data-setbg="img/bg-2.jpg">
+			<div class="hs-item set-bg" data-setbg="<c:url value='/img/bg-2.jpg'/>">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6 col-lg-7 text-white">
@@ -56,7 +56,7 @@
 				<div class="col-md-4 p-0 feature">
 					<div class="feature-inner">
 						<div class="feature-icon">
-							<img src="img/icons/1.png" alt="#">
+							<img src="<c:url value='/img/icons/1.png'/>" alt="#">
 						</div>
 						<h2>Fast Secure Payments</h2>
 					</div>
@@ -64,7 +64,7 @@
 				<div class="col-md-4 p-0 feature">
 					<div class="feature-inner">
 						<div class="feature-icon">
-							<img src="img/icons/2.png" alt="#">
+							<img src="<c:url value='/img/icons/2.png'/>" alt="#">
 						</div>
 						<h2>Premium Products</h2>
 					</div>
@@ -72,7 +72,7 @@
 				<div class="col-md-4 p-0 feature">
 					<div class="feature-inner">
 						<div class="feature-icon">
-							<img src="img/icons/3.png" alt="#">
+							<img src="<c:url value='/img/icons/3.png'/>" alt="#">
 						</div>
 						<h2>Free & fast Delivery</h2>
 					</div>
@@ -92,7 +92,7 @@
 			<div class="product-slider owl-carousel">
 				<div class="product-item">
 					<div class="pi-pic">
-						<img src="./img/product/1.jpg" alt="">
+						<img src="<c:url value='/img/product/1.jpg'/>" alt="">
 						<div class="pi-links">
 							<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 							<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -106,7 +106,7 @@
 				<div class="product-item">
 					<div class="pi-pic">
 						<div class="tag-new">New</div>
-						<img src="./img/product/2.jpg" alt="">
+						<img src="<c:url value='/img/product/2.jpg'/>" alt="">
 						<div class="pi-links">
 							<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 							<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -119,7 +119,7 @@
 				</div>
 				<div class="product-item">
 					<div class="pi-pic">
-						<img src="./img/product/3.jpg" alt="">
+						<img src="<c:url value='/img/product/3.jpg'/>" alt="">
 						<div class="pi-links">
 							<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 							<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -132,7 +132,7 @@
 				</div>
 				<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/4.jpg" alt="">
+							<img src="<c:url value='/img/product/4.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -145,7 +145,7 @@
 					</div>
 				<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/6.jpg" alt="">
+							<img src="<c:url value='/img/product/6.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -183,7 +183,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/5.jpg" alt="">
+							<img src="<c:url value='/img/product/5.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -199,7 +199,7 @@
 					<div class="product-item">
 						<div class="pi-pic">
 							<div class="tag-sale">ON SALE</div>
-							<img src="./img/product/6.jpg" alt="">
+							<img src="<c:url value='/img/product/6.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -214,7 +214,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/7.jpg" alt="">
+							<img src="<c:url value='/img/product/7.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -229,7 +229,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/8.jpg" alt="">
+							<img src="<c:url value='/img/product/8.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -244,7 +244,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/9.jpg" alt="">
+							<img src="<c:url value='/img/product/9.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -259,7 +259,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/10.jpg" alt="">
+							<img src="<c:url value='/img/product/10.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -274,7 +274,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/11.jpg" alt="">
+							<img src="<c:url value='/img/product/11.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -289,7 +289,7 @@
 				<div class="col-lg-3 col-sm-6">
 					<div class="product-item">
 						<div class="pi-pic">
-							<img src="./img/product/12.jpg" alt="">
+							<img src="<c:url value='/img/product/12.jpg'/>" alt="">
 							<div class="pi-links">
 								<a href="#" class="add-card"><i class="flaticon-bag"></i><span>ADD TO CART</span></a>
 								<a href="#" class="wishlist-btn"><i class="flaticon-heart"></i></a>
@@ -313,7 +313,7 @@
 	<!-- Banner section -->
 	<section class="banner-section">
 		<div class="container">
-			<div class="banner set-bg" data-setbg="img/banner-bg.jpg">
+			<div class="banner set-bg" data-setbg="<c:url value='/img/banner-bg.jpg'/>">
 				<div class="tag-new">NEW</div>
 				<span>New Arrivals</span>
 				<h2>STRIPED SHIRTS</h2>

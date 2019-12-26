@@ -39,7 +39,7 @@
 					<div class="col-lg-2 text-center text-lg-left">
 						<!-- logo -->
 						<a href="./index.html" class="site-logo">
-							<img src="img/logo.png" alt="">
+							<img src="<c:url value='/img/logo.png'/>" alt="">
 						</a>
 					</div>
 					<div class="col-xl-6 col-lg-5">
@@ -87,11 +87,11 @@
 					</li>
 					<li><a href="#">Pages</a>
 						<ul class="sub-menu">
-							<li><a href="./product.html">Product Page</a></li>
-							<li><a href="./category.html">Category Page</a></li>
-							<li><a href="./cart.html">Cart Page</a></li>
-							<li><a href="./checkout.html">Checkout Page</a></li>
-							<li><a href="./contact.html">Contact Page</a></li>
+							<li><a href="#">Product Page</a></li>
+							<li><a href="#">Category Page</a></li>
+							<li><a href="#">Cart Page</a></li>
+							<li><a href="#">Checkout Page</a></li>
+							<li><a href="#">Contact Page</a></li>
 						</ul>
 					</li>
 					<li><a href="#">Blog</a></li>

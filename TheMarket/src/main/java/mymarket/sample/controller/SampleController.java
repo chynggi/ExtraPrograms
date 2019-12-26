@@ -80,6 +80,12 @@ public class SampleController {
 		ModelAndView mv = new ModelAndView("sample/boardWrite");
 		return mv;
 	}
+	
+	@RequestMapping(value = "/sample/anotherindex.do")
+	public ModelAndView anotherindex(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/index");
+		return mv;
+	}
 
 	@RequestMapping(value = "/sample/openBoardUpdate.do")
 	public ModelAndView openBoardUpdate(CommandMap commandMap) throws Exception {
