@@ -84,6 +84,7 @@ public class SampleController {
 	@RequestMapping(value = "/sample/anotherindex.do")
 	public ModelAndView anotherindex(CommandMap commandMap) throws Exception {
 		ModelAndView mv = new ModelAndView("sample/index");
+		//Temp 2nd Index
 		return mv;
 	}
 
