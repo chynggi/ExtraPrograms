@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<%@ include file="/WEB-INF/include/include-header.jsp"%>
+<%@ include file="/WEB-INF/include/include-header-template.jsp"%>
 </head>
 <body>
 	<table class="board_view">
@@ -58,7 +58,7 @@
 	</table>
 	<a href="#this" class="btn" id="list">목록으로</a>
 	<a href="#this" class="btn" id="update">수정하기</a>
-	<%@ include file="/WEB-INF/include/include-body.jsp"%>
+	<%@ include file="/WEB-INF/include/include-footer-template.jsp"%>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$("#list").on("click", function(e) { //목록으로 버튼 

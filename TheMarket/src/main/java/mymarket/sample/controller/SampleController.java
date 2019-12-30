@@ -81,12 +81,99 @@ public class SampleController {
 		return mv;
 	}
 	
-	@RequestMapping(value = "/sample/anotherindex.do")
+	@RequestMapping(value = "/sample/index.do")
 	public ModelAndView anotherindex(CommandMap commandMap) throws Exception {
 		ModelAndView mv = new ModelAndView("sample/index");
 		//Temp 2nd Index
 		return mv;
 	}
+	
+	@RequestMapping(value = "/sample/contact.do")
+	public ModelAndView contactpage(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/contact");
+		//contact
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/checkouttest.do")
+	public ModelAndView checkouttest(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/checkout");
+		//page test - checkout
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/checkout.do")
+	public ModelAndView checkout(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/checkout");
+		//service - selectcartinfo
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/carttest.do")
+	public ModelAndView carttest(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/cart");
+		//page test - checkout
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/cart.do")
+	public ModelAndView cart(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/cart");
+		//service - selectcartinfo
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/cartsave.do")
+	public ModelAndView cartsave(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/checkout");
+		//service - updatecartinfo
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/cleancart.do")
+	public ModelAndView cleancart(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/checkout");
+		//service - updatecartinfo
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/categorytest.do")
+	public ModelAndView categorytest(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/category");
+		//page test - checkout
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/category.do")
+	public ModelAndView category(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/category");
+		//service - selectproductlistwithcategory
+		return mv;
+	}
+	
+	
+	@RequestMapping(value = "/sample/producttest.do")
+	public ModelAndView producttest(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/product");
+		//page test - checkout
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/product.do")
+	public ModelAndView product(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/product");
+		//service - selectproduct
+		return mv;
+	}
+	
+	@RequestMapping(value = "/sample/addproduct.do")
+	public ModelAndView addproduct(CommandMap commandMap) throws Exception {
+		ModelAndView mv = new ModelAndView("sample/product");
+		//service - selectproduct
+		return mv;
+	}
+	
+	
 
 	@RequestMapping(value = "/sample/openBoardUpdate.do")
 	public ModelAndView openBoardUpdate(CommandMap commandMap) throws Exception {

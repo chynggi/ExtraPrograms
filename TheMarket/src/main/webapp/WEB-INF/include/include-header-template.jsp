@@ -38,7 +38,7 @@
 				<div class="row">
 					<div class="col-lg-2 text-center text-lg-left">
 						<!-- logo -->
-						<a href="./index.html" class="site-logo">
+						<a href="./index.do" class="site-logo">
 							<img src="<c:url value='/img/logo.png'/>" alt="">
 						</a>
 					</div>
